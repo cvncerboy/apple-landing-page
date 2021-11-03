@@ -1,0 +1,450 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+body header {
+  background-color: #141414;
+  height: 194px;
+}
+body header nav.header {
+  background-color: #333;
+  height: 44px;
+}
+body header nav.header ul.header {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+}
+body header nav.header ul.header li.header {
+  list-style-type: none;
+  color: white;
+  margin: 0 35px;
+  line-height: 44px;
+}
+body header nav.header ul.header li.header a.header {
+  text-decoration: none;
+  color: white;
+}
+body header nav.header ul.header li.header img.header {
+  width: 36px;
+  height: 44px;
+}
+body header div.divheaderone section.sectionheaderone {
+  display: flex;
+  justify-content: center;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone {
+  margin: 0 15px;
+  text-align: center;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone img.imgsectionheaderone {
+  width: 50px;
+  height: 50px;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone h5 {
+  color: white;
+  margin: 5px 0;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone h6 {
+  color: #F56300;
+  margin: 5px 0;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone a {
+  text-decoration: none;
+  color: white;
+}
+body header div.divheaderone section.sectionheaderone div.sectionheaderone a:hover {
+  color: #0071E3;
+}
+body header p.sectionheader {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 25px;
+}
+body header p.sectionheader a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body header p.sectionheader a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSection {
+  background-color: black;
+}
+body main section.MainSection div.MainSectionContentTop {
+  text-align: center;
+}
+body main section.MainSection div.MainSectionContentTop img.MainSectionContentImgTop {
+  margin-top: 50px;
+  width: 88px;
+  height: 88px;
+}
+body main section.MainSection div.MainSectionContentTop h1 {
+  color: white;
+  font-size: 5em;
+  margin: 10px auto;
+}
+body main section.MainSection div.MainSectionContentTop a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSection div.MainSectionContentTop a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSection div#MainSectionContent {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h4 {
+  color: #F56300;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h3 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h1 {
+  width: 350px;
+  color: white;
+  font-size: 3em;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent p {
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h5 {
+  width: 60px;
+  height: 30px;
+  color: white;
+  background-color: #0071E3;
+  border: 2px solid #0071E3;
+  border-radius: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h5 a {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent h5 a:hover {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContent a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu {
+  position: relative;
+  left: 150px;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h4 {
+  color: #F56300;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h3 {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h1 {
+  width: 350px;
+  color: white;
+  font-size: 3em;
+  margin: 0 0;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu p {
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h5 {
+  width: 60px;
+  height: 30px;
+  color: white;
+  background-color: #0071E3;
+  border: 2px solid #0071E3;
+  border-radius: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h5 a {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu h5 a:hover {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentSatu a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentImg img.MainSectionContentSatuImg {
+  width: 800px;
+  height: 406px;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentImg img.MainSectionContentDuaImg {
+  width: 677px;
+  height: 389px;
+}
+body main section.MainSection div#MainSectionContent div.MainSectionContentImg img.MainSectionContentTigaImg {
+  width: 566px;
+  height: 422px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside {
+  height: 1200px;
+  margin: 30px 30px;
+  background-color: #F2F2F2;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBody {
+  text-align: center;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBody h1 {
+  font-size: 4em;
+  margin: 0 auto;
+  width: 800px;
+  padding-top: 100px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBody p {
+  margin: 100px auto;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBody p a {
+  text-decoration: none;
+  color: #0071E3;
+  font-size: 1.3em;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBody p a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide {
+  display: flex;
+  justify-content: space-around;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide div.MainSectionBodySideImg {
+  margin-bottom: 34px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide div.MainSectionBodySideImg img.MainSectionBodySideOneImg {
+  width: 282px;
+  height: 166px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide div.MainSectionBodySideImg img.MainSectionBodySideThreeImg {
+  width: 334px;
+  height: 174px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide div.MainSectionBodySideImg img.MainSectionBodySideTwoImg {
+  width: 284px;
+  height: 169px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc {
+  list-style: none;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc h4 {
+  font-size: 1.5em;
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc h5 {
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc li {
+  margin-top: 30px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc h6 {
+  width: 40px;
+  height: 30px;
+  border: 2px solid #0071E3;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background-color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc h6 a {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc h6 a:hover {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySide ul.MainSectionBodySideDesc a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc {
+  list-style: none;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc li:nth-child(5) p {
+  color: #aaa;
+  margin-top: 0;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc h4 {
+  font-size: 1.5em;
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc h5 {
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc li {
+  margin-top: 30px;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc h6 {
+  width: 40px;
+  height: 30px;
+  border: 2px solid #0071E3;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background-color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc h6 a {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc h6 a:hover {
+  text-decoration: none;
+  color: white;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc a {
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSectionBodyOutside div#MainSectionBodyOutside div#MainSectionBodySide div.MainSectionBodySideCenter ul.MainSectionBodySideCenterDesc a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar {
+  height: 450px;
+  margin: 30px 30px;
+  background-color: #F2F2F2;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar {
+  display: flex;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarImg {
+  margin: 50px 50px;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarImg img.MainSectionBodyOutsideBarImg {
+  width: 600px;
+  height: 303px;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarDesc {
+  margin-top: 80px;
+  text-align: center;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarDesc h2 {
+  font-size: 3em;
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarDesc p {
+  font-size: 1em;
+  margin: 10px auto;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarDesc a {
+  text-decoration: none;
+  color: #0071E3;
+  margin: 0 0;
+}
+body main section.MainSectionBodyOutsideBar div#MainSectionBodyOutsideBar div.MainSectionBodyOutsideBar div.MainSectionBodyOutsideBarDesc a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside {
+  display: flex;
+  margin: 30px 30px;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide {
+  width: 100%;
+  height: 650px;
+  margin-right: 15px;
+  background-color: #F2F2F2;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideDesc {
+  text-align: center;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideDesc h2 {
+  margin-top: 50px;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideDesc h3 {
+  font-size: 3em;
+  margin: 0 0;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideDesc a {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  margin-bottom: 130px;
+  text-decoration: none;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideDesc a p {
+  display: inline-block;
+  margin-top: 20px;
+  width: 60px;
+  height: 30px;
+  color: white;
+  background-color: #0071E3;
+  border: 2px solid #0071E3;
+  border-radius: 50px;
+  line-height: 30px;
+  text-align: center;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyOneSide div.MainSectionBodyOneSideImg img.MainSectionBodyOneSideImg {
+  width: 575px;
+  height: 282px;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide {
+  width: 100%;
+  height: 650px;
+  margin-left: 15px;
+  background-color: #F2F2F2;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc {
+  text-align: center;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc h2 {
+  margin-top: 50px;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc h3 {
+  margin: 0 0;
+  font-size: 3em;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc p {
+  margin: 20px auto;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc a {
+  display: inline-block;
+  margin-bottom: 65px;
+  text-decoration: none;
+  color: #0071E3;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideDesc a:hover {
+  text-decoration: underline;
+  color: #0071E3;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideImg {
+  display: flex;
+  justify-content: center;
+}
+body main section.MainSectionBodyAside div#MainSectionBodyAside div#MainSectionBodyTwoSide div.MainSectionBodyTwoSideImg img.MainSectionBodyTwoSideImg {
+  width: 422px;
+  height: 280px;
+}

@@ -1,0 +1,317 @@
+@import initialization
+@import mixin
+
+body
+    margin: $firstMargin
+    padding: $firstPadding
+    font-family: $eighthFontFamily
+    header
+        background-color: $fourthColor
+        height: $heightHeader
+        nav.header
+            background-color: $fifthColor
+            height: $heightnavHeader
+            ul.header
+                display: $displayFlex
+                justify-content: $displayCenter
+                padding: $firstPadding
+                margin: $secondMargin
+                li.header
+                    list-style-type: $decorationText
+                    color: $thirdColor
+                    margin: $thirdMargin
+                    line-height: $heightnavHeader
+                    a.header
+                        text-decoration: $decorationText
+                        color: $thirdColor
+                    img.header
+                        width: $widthnavHeader
+                        height: $heightnavHeader
+        div.divheaderone
+            section.sectionheaderone
+                display: $displayFlex
+                justify-content: $displayCenter
+                div.sectionheaderone
+                    margin: $fourthMargin
+                    text-align: $textAlign
+                    img.imgsectionheaderone
+                        width: $heightimgsectionheaderone
+                        height: $heightimgsectionheaderone
+                    h5
+                        color: $thirdColor
+                        margin: $fifthMargin
+                    h6
+                        color: $firstColor
+                        margin: $fifthMargin
+                    a
+                        text-decoration: $decorationText
+                        color: $thirdColor
+                    a:hover
+                        color: $secondColor
+        p.sectionheader
+            color: $thirdColor
+            font-size: $firstFontSize
+            text-align: $textAlign
+            margin-top: $marginTopsectionheader
+            a
+                text-decoration: $decorationText
+                color: $secondColor
+            a:hover
+                @include pseudohover
+    main
+        section.MainSection
+            background-color: $sixthColor
+            div.MainSectionContentTop
+                text-align: $textAlign
+                img.MainSectionContentImgTop
+                    margin-top: $heightimgsectionheaderone
+                    width: $widthMainSectionContent
+                    height: $heightMainSectionContent
+                h1
+                    color: $thirdColor
+                    font-size: $secondFontSize
+                    margin: $sixthMargin
+                a
+                    text-decoration: $decorationText
+                    color: $secondColor
+                a:hover
+                    @include pseudohover
+            div#MainSectionContent
+                display: $displayFlex
+                justify-content: $displayCenter
+                margin-top: $marginTopMainSectionContent
+                div.MainSectionContent
+                    h4
+                        color: $firstColor
+                        margin: $marginNone
+                    h3
+                        color: $thirdColor
+                        font-size: $thirdFontSize
+                        margin: $marginNone
+                    h1
+                        width: $widthH1MainSectionContentTiga
+                        color: $thirdColor
+                        font-size: $seventhFontSize
+                        margin: $marginNone
+                    p
+                        color: $thirdColor
+                    h5
+                        @include buttonsubmit
+                        a
+                            text-decoration: $decorationText
+                            color: $thirdColor
+                        a:hover
+                            text-decoration: $decorationText
+                            color: $thirdColor
+                    a
+                        text-decoration: $decorationText
+                        color: $secondColor
+                    a:hover
+                        @include pseudohover
+                div.MainSectionContentSatu
+                    position: $relativePosition
+                    left: $firstLeft
+                    h4
+                        color: $firstColor
+                        margin: $marginNone
+                    h3
+                        color: $thirdColor
+                        font-size: $thirdFontSize
+                        margin: $marginNone
+                    h1
+                        width: $widthH1MainSectionContentTiga
+                        color: $thirdColor
+                        font-size: $seventhFontSize
+                        margin: $marginNone
+                    p
+                        color: $thirdColor
+                    h5
+                        @include buttonsubmit
+                        a
+                            text-decoration: $decorationText
+                            color: $thirdColor
+                        a:hover
+                            text-decoration: $decorationText
+                            color: $thirdColor
+                    a
+                        text-decoration: $decorationText
+                        color: $secondColor
+                    a:hover
+                        @include pseudohover
+                div.MainSectionContentImg
+                    img.MainSectionContentSatuImg
+                        width: $widthMainSectionContentSatuImg
+                        height: $heightMainSectionContentSatuImg
+                    img.MainSectionContentDuaImg
+                        width: $widthMainSectionContentDuaImg
+                        height: $heightMainSectionContentDuaImg
+                    img.MainSectionContentTigaImg
+                        width: $widthMainSectionContentTigaImg
+                        height: $heightMainSectionContentTigaImg
+        section.MainSectionBodyOutside
+            div#MainSectionBodyOutside
+                height: $heightMainSectionBodyOutside
+                margin: $seventhMargin
+                background-color: $seventhColor
+                div#MainSectionBody
+                    text-align: $textAlign
+                    h1
+                        font-size: $fifthFontSize
+                        margin: $secondMargin
+                        width: $widthMainSectionBodyOutside
+                        padding-top: $secondPadding
+                    p
+                        margin: $eighthMargin
+                        a
+                            text-decoration: $decorationText
+                            color: $secondColor
+                            font-size: $eightFontSize
+                        a:hover
+                            @include pseudohover
+                div#MainSectionBodySide
+                    display: $displayFlex
+                    justify-content: $displayJustify
+                    div.MainSectionBodySide
+                        div.MainSectionBodySideImg
+                            margin-bottom: $marginBottomMainSectionBodySideOneImg
+                            img.MainSectionBodySideOneImg
+                                width: $widthMainSectionBodySideOneImg
+                                height: $heightMainSectionBodySideOneImg
+                            img.MainSectionBodySideThreeImg
+                                width: $widthMainSectionBodySideThreeImg
+                                height: $heightMainSectionBodySideThreeImg
+                            img.MainSectionBodySideTwoImg
+                                width: $widthMainSectionBodySideTwoImg
+                                height: $heightMainSectionBodySideTwoImg
+                        ul.MainSectionBodySideDesc
+                            list-style: $decorationText
+                            h4
+                                font-size: $thirdFontSize
+                                margin: $marginNone
+                            h5
+                                margin: $marginNone
+                            li
+                                margin-top: $heightMainSectionContentSatu
+                            h6
+                                @include buttonsubmitone
+                                a
+                                    text-decoration: $decorationText
+                                    color: $thirdColor
+                                a:hover
+                                    text-decoration: $decorationText
+                                    color: $thirdColor
+                            a
+                                text-decoration: $decorationText
+                                color: $secondColor
+                            a:hover
+                                @include pseudohover
+                    div.MainSectionBodySideCenter
+                        ul.MainSectionBodySideCenterDesc
+                            list-style: none
+                            li:nth-child(5) p
+                                color: $eightColor
+                                margin-top: $firstMargin
+                            h4
+                                font-size: $thirdFontSize
+                                margin: $marginNone
+                            h5
+                                margin: $marginNone
+                            li
+                                margin-top: $heightMainSectionContentSatu
+                            h6
+                                @include buttonsubmitone
+                                a
+                                    text-decoration: $decorationText
+                                    color: $thirdColor
+                                a:hover
+                                    text-decoration: $decorationText
+                                    color: $thirdColor
+                            a
+                                text-decoration: $decorationText
+                                color: $secondColor
+                            a:hover
+                                @include pseudohover
+        section.MainSectionBodyOutsideBar
+            div#MainSectionBodyOutsideBar
+                height: $heightMainSectionBodyOutsideBar
+                margin: $tenthMargin
+                background-color: $seventhColor
+                div.MainSectionBodyOutsideBar
+                    display: $displayFlex
+                    div.MainSectionBodyOutsideBarImg
+                        margin: $heightimgsectionheaderone $heightimgsectionheaderone
+                        img.MainSectionBodyOutsideBarImg
+                            width: $widthMainSectionBodyOutsideBarImg
+                            height: $heightMainSectionBodyOutsideBarImg
+                    div.MainSectionBodyOutsideBarDesc
+                        margin-top: $marginTopMainSectionBodyOutsideBarDesc
+                        text-align: $textAlign
+                        h2
+                            font-size: $seventhFontSize
+                            margin: $marginNone
+                        p
+                            font-size: $sixthFontSize
+                            margin: $sixthMargin
+                        a
+                            text-decoration: $decorationText
+                            color: $secondColor
+                            margin: $marginNone
+                        a:hover
+                            @include pseudohover
+        section.MainSectionBodyAside
+            div#MainSectionBodyAside
+                display: $displayFlex
+                margin: $seventhMargin
+                div#MainSectionBodyOneSide
+                    width: $widthMainSectionBodyOneSide
+                    height: $heightMainSectionBodyOneSide
+                    margin-right: $thirdLeft
+                    background-color: $seventhColor
+                    div.MainSectionBodyOneSideDesc
+                        text-align: $textAlign
+                        h2
+                            margin-top: $heightimgsectionheaderone
+                        h3
+                            font-size: $seventhFontSize
+                            margin: $marginNone
+                        a
+                            display: $displayInlineBlock
+                            width: $widthMainSectionBodyOneSideDesc
+                            height: $heightMainSectionContentSatu
+                            margin-bottom: $marginBottomMainSectionBodyOneSideDesc
+                            text-decoration: $decorationText
+                            p
+                                display: $displayInlineBlock
+                                margin-top: $marginTopMainSectionBodyOneSideDesc
+                                @include buttonsubmit
+                    div.MainSectionBodyOneSideImg
+                        img.MainSectionBodyOneSideImg
+                            width: $widthMainSectionBodyOneSideImg
+                            height: $heightMainSectionBodyOneSideImg
+                div#MainSectionBodyTwoSide
+                    width: $widthMainSectionBodyTwoSide
+                    height: $heightMainSectionBodyTwoSide
+                    margin-left: $thirdLeft
+                    background-color: $seventhColor
+                    div.MainSectionBodyTwoSideDesc
+                        text-align: $textAlign
+                        h2
+                            margin-top: $heightimgsectionheaderone
+                        h3
+                            margin: $marginNone
+                            font-size: $seventhFontSize
+                        p
+                            margin: $eleventhMargin
+                        a
+                            display: $displayInlineBlock
+                            margin-bottom: $marginBottomMainSectionBodyTwoSideDesc
+                            text-decoration: $decorationText
+                            color: $secondColor
+                        a:hover
+                            @include pseudohover
+                    div.MainSectionBodyTwoSideImg
+                        display: $displayFlex
+                        justify-content: $displayCenter
+                        img.MainSectionBodyTwoSideImg
+                            width: $widthMainSectionBodyTwoSideImg
+                            height: $heightMainSectionBodyTwoSideImg
